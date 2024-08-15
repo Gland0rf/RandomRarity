@@ -1,0 +1,23 @@
+rarity:
+  common: 70
+  uncommon: 20
+  rare: 7
+  epic: 2
+  legendary: 1
+#Note that the rarity does not have to equal 100. For example, there is a 70% chance for common.
+#If that is not reached, there is a 50% chance for uncommon, etc.
+apply_to_custom_items: true
+buffs:
+  common:
+    durability_modifier: 0
+  uncommon:
+    durability_modifier: 0
+  rare:
+    durability_modifier: 0
+    extra_damage: 0
+  epic:
+    durability_modifier: 0
+    extra_damage: 0
+  legendary:
+    durability_modifier: 0
+    extra_damage: 0

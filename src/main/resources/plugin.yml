@@ -1,0 +1,12 @@
+name: RandomRarity
+version: 1.0.0
+main: com.ndk.rr.Main
+description: A plugin that adds rarity cosmetics
+author: Nico Kogler
+api-version: '1.21.1'
+
+commands:
+  randomrarity:
+    description: RandomRarity configuration
+    permission: randomrarity.changeconfig
+    permission-message: You don't have permission to run this command!
